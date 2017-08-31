@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A09F657-D4EF-40F5-A8D1-9BEB4C9793A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{03EE59E4-EAC5-4490-94EE-C74C83E3E550}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Wav.Core", "src\Wav.Core\Wav.Core.xproj", "{BFF0F3B8-6BF8-479A-90E0-B8AA898B623B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Wav.Core.Tests", "test\Wav.Core.Tests\Wav.Core.Tests.xproj", "{A5C04AE1-F745-4B1C-8726-95186F7C2C91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFF0F3B8-6BF8-479A-90E0-B8AA898B623B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF0F3B8-6BF8-479A-90E0-B8AA898B623B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF0F3B8-6BF8-479A-90E0-B8AA898B623B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF0F3B8-6BF8-479A-90E0-B8AA898B623B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C04AE1-F745-4B1C-8726-95186F7C2C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C04AE1-F745-4B1C-8726-95186F7C2C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C04AE1-F745-4B1C-8726-95186F7C2C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C04AE1-F745-4B1C-8726-95186F7C2C91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFF0F3B8-6BF8-479A-90E0-B8AA898B623B} = {6A09F657-D4EF-40F5-A8D1-9BEB4C9793A3}
+		{A5C04AE1-F745-4B1C-8726-95186F7C2C91} = {03EE59E4-EAC5-4490-94EE-C74C83E3E550}
+	EndGlobalSection
+EndGlobal
