@@ -7,7 +7,6 @@
   "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
   "description": "A .Net 2.0 library for transcoding wav files. (Supports Mono.)",
   "summary": "A .Net 2.0 library for transcoding wav files. (Supports Mono.)",
-  "language": "en-GB",
 
   "packOptions": {
     "repository": {
